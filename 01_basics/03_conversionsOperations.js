@@ -47,3 +47,32 @@ let str1 = String(strConv1)
 let str2 = String(strConv2)
 
 console.table([str, str1, str2, typeof str, typeof str1, typeof str2])
+
+//******************** Operarions ***********************
+
+let value = 1
+
+let negValue = -value
+console.log(negValue);
+//console.log(2+2) => addition
+// console.log(2-2) => subraction
+// console.log(2*2) => Multiplication
+// console.log(2**3) => power 2square rootof 3
+// console.log(2%2) => modula or remainder
+
+let strOpe = "Hello"
+let strOpe2 = " String"
+console.log(strOpe + strOpe2)
+console.log("1" + 2)
+console.log(1 + "2")
+console.log(3 + 3 + "aaa") // string in the last will perform prior operations first and append string
+console.log("str" + 4 + 3) // string in the first will treat all the following operations has string
+console.log((3 + 4) * 9 % 5) //use paranthesis where required
+
+//prefix and postfix 
+
+let a = 1, b =1
+console.log(++a + " 2, prefix form returns the new value")
+console.log(b++ + " 1, postfix form returns the old value")
+console.log(a, b)
+
